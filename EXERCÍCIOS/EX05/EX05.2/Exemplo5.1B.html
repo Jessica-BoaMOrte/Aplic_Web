@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Exemplo5.1B.css">
+    <title>Alimentos</title>
+  
+</head>
+<body>
+
+    <div class="container">
+        <!-- Esquerda: Listbox com as siglas -->
+        <div class="painel-esquerdo">
+            <select id="selectAlimentos" size="4">
+                <option value="0" selected>BATATA</option>
+                <option value="1">CENOURA</option>
+                <option value="2">BRÓCOLIS</option>
+                <option value="3">MORANGO</option>
+
+            </select>
+        </div>
+
+        <!-- Meio: Botão -->
+        <div class="painel-meio">
+            <button id="btnDetalhes">Detalhes</button>
+        </div>
+
+        <!-- Direita: Quatro divs/quadros de informações -->
+        <div class="painel-direito">
+            <div class="card-info">
+                <strong>CALORIAS</strong>
+                <div id="divCalorias">-</div>
+            </div>
+            <div class="card-info">
+                <strong>PROTEÍNAS</strong>
+                <div id="divProteinas">-</div>
+            </div>
+            <div class="card-info">
+                <strong>VITAMINAS</strong>
+                <div id="divVitaminas">-</div>
+            </div>
+            <div class="card-info">
+                <strong>IMAGEM</strong>
+                <div id="divImagem">-</div>
+            </div>
+        </div>
+    </div>
+
+ <script src="Exemplo5.1B.js"></script>   
+</body>
+</html>
