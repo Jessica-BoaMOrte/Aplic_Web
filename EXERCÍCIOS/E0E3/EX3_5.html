@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>3.5 Filtro de Tecnologias</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f9; display: flex; flex-direction: column; align-items: center; margin-top: 80px; }
+    input { width: 240px; padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 6px; }
+    ul { margin-top: 20px; font-size: 20px; }
+  </style>
+</head>
+<body>
+  <h2>Tecnologias</h2>
+  <input type="text" id="busca" placeholder="Buscar tecnologia..." oninput="filtrar()">
+
+  <ul id="listaTecnologias">
+    <li>JavaScript</li>
+    <li>Python</li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>PHP</li>
+    <li>Java</li>
+  </ul>
+
+  <script>
+    function filtrar() {
+      const termo = document.getElementById('busca').value.toLowerCase();
+      const itens = document.querySelectorAll('#listaTecnologias li');
+
+      for (let i = 0; i < itens.length; i++) {
+        const texto = itens[i].textContent.toLowerCase();
+
+        if (texto.includes(termo)) {
+          itens[i].style.display = "block";
+        } else {
+          itens[i].style.display = "none";
+        }
+      }
+    }
+  </script>
+</body>
+</html>
