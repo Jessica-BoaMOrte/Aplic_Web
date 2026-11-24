@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>3.4 Painel de Cadastros</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f9; display: flex; flex-direction: column; align-items: center; margin-top: 80px; }
+    input { padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 6px; }
+    #preco { width: 110px; }
+    button { padding: 10px 20px; font-size: 16px; color: #fff; background: #007bff; border: none; border-radius: 6px; cursor: pointer; }
+    button:hover { background: #0056b3; }
+    ul { margin-top: 20px; font-size: 18px; list-style: none; padding: 0; }
+    li { margin-bottom: 8px; }
+    li button { margin-left: 10px; padding: 4px 10px; font-size: 14px; background: #dc3545; }
+    li button:hover { background: #b02a37; }
+  </style>
+</head>
+<body>
+  <h2>Cadastro de Produtos</h2>
+  <div>
+    <input type="text" id="nomeProduto" placeholder="Nome do Produto">
+    <input type="number" id="preco" placeholder="Preço (R$)" step="0.01">
+    <button onclick="cadastrarProduto()">Cadastrar Produto</button>
+  </div>
+  <ul id="listaProdutos"></ul>
+
+  <script>
+    function cadastrarProduto() {
+      const nome = document.getElementById('nomeProduto').value;
+      const preco = Number(document.getElementById('preco').value);
+
+      if (nome === "" || preco <= 0) {
+        alert("Informe o nome e um preço válido.");
+        return;
+      }
+
+      // Cria o <li> com o texto "Nome - R$ 0.00"
+      const item = document.createElement('li');
+      item.textContent = nome + " - R$ " + preco.toFixed(2);
+
+      // Cria o botão Excluir, que remove o <li> pai
+      const botao = document.createElement('button');
+      botao.textContent = "Excluir";
+      botao.onclick = function () {
+        item.remove();
+      };
+
+      item.appendChild(botao);
+      document.getElementById('listaProdutos').appendChild(item);
+
+      // Limpa os campos
+      document.getElementById('nomeProduto').value = "";
+      document.getElementById('preco').value = "";
+    }
+  </script>
+</body>
+</html>
