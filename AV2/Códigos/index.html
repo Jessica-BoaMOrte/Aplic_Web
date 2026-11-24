@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="xh">
+<head>
+  <meta charset="UTF-8">
+  <title>Ikhadi Ledijithali Lokugonya Abantwana</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="Zé Gotinha Sul-Africano.png">
+</head>
+<body>
+
+  <!-- Intloko enomfanekiso, isihloko kunye neflegi yoMzantsi Afrika -->
+  <header class="cabecalho">
+    <img
+      src="Zé Gotinha Sul-Africano.png"
+      alt="Umlinganiswa Wokugonya"
+      class="ze-gotinha"
+    >
+
+    <div class="titulo-area">
+      <h1>IKHADI LEDIJITHALI LOKUGONYA ABANTWANA</h1>
+      <p>Inkqubo Yezempilo Yoluntu - UMzantsi Afrika</p>
+    </div>
+
+    <img
+      src="Bandeira Africa do Sul.png"
+      alt="Iflegi yoMzantsi Afrika"
+      class="bandeira"
+    >
+  </header>
+
+  <main class="conteudo">
+
+    <!-- Icandelo 1: Iinkcukacha Zomntwana -->
+    <form id="form-crianca">
+    <section class="caixa">
+      <h2>Iinkcukacha Zomntwana Nabazali</h2>
+      <p class="aviso">* Izithuba ezinyanzelekileyo</p>
+  
+        <div class="campo">
+          <label for="nomeCrianca">Igama Elipheleleyo Lomntwana *</label>
+          <input type="text" id="nomeCrianca" placeholder="Faka igama elipheleleyo">
+        </div>
+
+        <div class="linha-dupla">
+          <div class="campo">
+            <label for="dataNascimento">Umhla Wokuzalwa *</label>
+            <input type="date" id="dataNascimento">
+          </div>
+
+          <div class="campo">
+            <label for="idadeAnos">Ubudala (Iminyaka)</label>
+            <input type="text" id="idadeAnos" readonly placeholder="Ngokuzenzekelayo">
+          </div>
+
+          <div class="campo">
+            <label for="idadeMeses">Ubudala (Iinyanga)</label>
+            <input type="text" id="idadeMeses" readonly placeholder="Ngokuzenzekelayo">
+          </div>
+        </div>
+
+        <div class="linha-dupla">
+          <div class="campo">
+            <label for="cpfCrianca">Inombolo Yesazisi Yomntwana (ID) *</label>
+            <input type="text" id="cpfCrianca" maxlength="14" placeholder="0000000000000">
+          </div>
+
+          <div class="campo">
+            <label for="numeroSus">Inombolo Yekhadi Lezempilo *</label>
+            <input type="text" id="numeroSus" maxlength="15" placeholder="Faka iinombolo ezili-15">
+          </div>
+        </div>
+
+        <div class="linha-dupla">
+          <div class="campo">
+            <label for="responsavel1">Umzali Okanye Umgcini 1 (Onyanzelekileyo) *</label>
+            <input type="text" id="responsavel1" placeholder="Igama lomzali wokuqala">
+          </div>
+
+          <div class="campo">
+            <label for="responsavel2">Umzali Okanye Umgcini 2 (Akunyanzelekanga)</label>
+            <input type="text" id="responsavel2" placeholder="Igama lomzali wesibini">
+          </div>
+        </div>
+
+        <!-- Isithuba seWhatsApp somzali ukuze athumele izilumkiso zokugonya okusemva kwexesha -->
+        <div class="campo">
+          <label for="whatsappResponsavel">Inombolo ye-WhatsApp Yomzali (Izilumkiso) *</label>
+          <input type="text" id="whatsappResponsavel" placeholder="Umz.: 27821234567 (ikhodi yelizwe + inombolo)">
+        </div>
+
+    </section>
+
+    <!-- Icandelo 2: Amakhadi Eengoma Zokugonya -->
+    <section class="caixa">
+      <h2>Ikhalenda Yokugonya Abantwana</h2>
+      <p>Cofa ekhadini ukuze ubone ukuba isitofu sokugonya sisebenzela ntoni kwaye ubhalise ukugonywa.</p>
+
+      <!-- Ibhokisi yezaziso zeengoma ezisemva kwexesha kunye neqhosha le-WhatsApp -->
+      <div id="painel-atrasadas" class="painel-atrasadas escondido">
+        <p id="resumo-atrasadas"></p>
+        <div class="botoes-alerta">
+          <button type="button" id="btn-simular-defesa-civil" class="botao-alerta-dc">Isilumkiso Esingxamisekileyo (Defesa Civil)</button>
+          <button type="button" id="btn-enviar-whatsapp" class="botao-whatsapp">Thumela kwi-WhatsApp</button>
+        </div>
+      </div>
+
+      <div id="lista-vacinas" class="grade-vacinas"></div>
+      
+    </section>
+
+    <section class="caixa">
+      <h2>Ikhadi lam elingaxhumekanga kwi-intanethi</h2>
+      <p>Emva kokugcwalisa iinkcukacha zomntwana kunye neengoma zakhe zokugonya, cofa apha ukuze ugcine ikhadi lakho kwifayile yasekhaya.</p>
+      <button type="submit" class="botao-salvar">Gcina Ikhadi</button>
+      <p id="mensagem-cadastro" class="mensagem-sucesso"></p>
+    </section>
+    </form>
+  </main>
+
+  <!-- Ifestile (Modal) evuleka xa ucofa ekhadini -->
+  <div id="janela-detalhes" class="fundo-janela escondido">
+    <div class="conteudo-janela">
+      <h3 id="janela-titulo">Igama Lesitofu Sokugonya</h3>
+      <p><strong>Idosi:</strong> <span id="janela-dose"></span></p>
+      <p><strong>Sifumaneka nini:</strong> <span id="janela-idade"></span></p>
+      <p><strong>Sisebenzela ntoni:</strong> <span id="janela-descricao"></span></p>
+
+      <div class="area-check">
+        <input type="checkbox" id="check-tomada">
+        <label for="check-tomada">Isitofu sokugonya sele sifakiwe</label>
+      </div>
+
+      <!-- Izithuba ezongezelelweyo ezivelayo xa "Isitofu sokugonya sele sifakiwe" ikhethiwe -->
+      <div id="campos-aplicacao" class="campos-extras escondido">
+        <div class="campo">
+          <label for="dataAplicacao">Umhla Wokugonywa *</label>
+          <input type="date" id="dataAplicacao">
+        </div>
+
+        <div class="campo">
+          <label for="numeroLote">Inombolo Yebhetshi *</label>
+          <input type="text" id="numeroLote" placeholder="Umz.: AB1234">
+        </div>
+
+        <div class="campo">
+          <label for="unidadeAplicadora">Iziko Lezempilo *</label>
+          <input type="text" id="unidadeAplicadora" placeholder="Umz.: Ikliniki yaseKhayelitsha">
+        </div>
+
+        <div class="campo">
+          <label for="responsavelAplicacao">Ingcali Yezempilo Egonyileyo *</label>
+          <input type="text" id="responsavelAplicacao" placeholder="Igama lengcali">
+        </div>
+      </div>
+
+      <div class="botoes-janela">
+        <button type="button" id="btn-confirmar" class="botao-salvar">Qinisekisa</button>
+        <button type="button" id="btn-fechar" class="botao-fechar">Vala</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ifestile Yesilumkiso Esingxamisekileyo (Estilo Defesa Civil / Cell Broadcast) -->
+  <div id="alerta-defesa-civil" class="fundo-alerta-dc escondido">
+    <div class="caixa-alerta-dc">
+      <div class="topo-alerta-dc">
+        <span class="icone-alerta-dc">⚠️</span>
+        <div>
+          <strong>ISILUMKISO ESINGXAMISEKILEYO SEZEMPILO</strong>
+          <small>Isebe Lezempilo - UMzantsi Afrika (Alert / Defesa Civil)</small>
+        </div>
+      </div>
+      <div class="corpo-alerta-dc">
+        <p id="texto-alerta-dc"></p>
+      </div>
+      <div class="rodape-alerta-dc">
+        <button type="button" id="btn-whatsapp-modal" class="botao-whatsapp">Vula i-WhatsApp</button>
+        <button type="button" id="btn-fechar-dc" class="botao-ok-dc">Ndiyaqonda (OK)</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+{
+  "calendario_vacinacao_infantil_sus": [
+    {
+      "vacina": "BCG",
+      "idade": "Ekuzalweni (idosi enye)",
+      "para_que_serve": "Ikhusela kwiintlobo eziyingozi zesifo sephepha (i-tuberculosis ye-miliar kunye ne-meningeal)."
+    },
+    {
+      "vacina": "I-Hepatitis B",
+      "idade": "Ekuzalweni (idosi yokuzalwa)",
+      "para_que_serve": "Ikhusela kwisifo sesibindi i-hepatitis B."
+    },
+    {
+      "vacina": "I-Penta (DTP + Hib + Hepatitis B)",
+      "idade": "Kwiinyanga ezi-2 (idosi yoku-1), iinyanga ezi-4 (idosi yesi-2) kunye neenyanga ezi-6 (idosi yesi-3)",
+      "para_que_serve": "Ikhusela kwi-diphtheria, i-tetanus, i-pertussis (ukhohlokhohlo), i-hepatitis B kunye nosuleleko olunzima olubangelwa yi-Haemophilus influenzae uhlobo b (njenge-meningitis kunye ne-pneumonia)."
+    },
+    {
+      "vacina": "I-VIP (Isitofu Sokugonya I-Polio)",
+      "idade": "Kwiinyanga ezi-2 (idosi yoku-1), iinyanga ezi-4 (idosi yesi-2), iinyanga ezi-6 (idosi yesi-3) kunye neenyanga ezili-15 (isikhuthazi)",
+      "para_que_serve": "Ikhusela kwi-poliomyelitis (ukukhubazeka kwabantwana)."
+    },
+    {
+      "vacina": "I-Pneumococcal 10-valent (VPC10)",
+      "idade": "Kwiinyanga ezi-2 (idosi yoku-1), iinyanga ezi-4 (idosi yesi-2) kunye neenyanga ezili-12 (isikhuthazi)",
+      "para_que_serve": "Ikhusela kwizifo eziyingozi ezibangelwa yi-pneumococcus, njenge-pneumonia, i-meningitis kunye ne-otitis media ebukhali."
+    },
+    {
+      "vacina": "I-Rotavirus Yomntu (VRH)",
+      "idade": "Kwiinyanga ezi-2 (idosi yoku-1) kunye neenyanga ezi-4 (idosi yesi-2)",
+      "para_que_serve": "Ikhusela kurhudo olunzima kunye nokuphelelwa ngamanzi emzimbeni okubangelwa yi-rotavirus."
+    },
+    {
+      "vacina": "I-Meningococcal C (edityanisiweyo)",
+      "idade": "Kwiinyanga ezi-3 (idosi yoku-1), iinyanga ezi-5 (idosi yesi-2) kunye neenyanga ezili-12 (isikhuthazi)",
+      "para_que_serve": "Ikhusela kwizifo eziyingozi ezibangelwa yintsholongwane i-Neisseria meningitidis yeqela C (i-meningitis kunye ne-meningococcemia)."
+    },
+    {
+      "vacina": "I-Covid-19",
+      "idade": "Kwiinyanga ezi-6 (idosi yoku-1), iinyanga ezi-7 (idosi yesi-2) kunye neenyanga ezi-9 (idosi yesi-3, ngokomenzi)",
+      "para_que_serve": "Ikhusela kwiintlobo ezimbi zesifo, ukulaliswa esibhedlele kunye nokufa okubangelwa yintsholongwane i-SARS-CoV-2."
+    },
+    {
+      "vacina": "I-Influenza (Umkhuhlane)",
+      "idade": "Ukususela kwiinyanga ezi-6 (ngonyaka; iidosi ezimbini kugonyo lokuqala ukuya kwiminyaka esi-8)",
+      "para_que_serve": "Ikhusela kwiingxaki, ukulaliswa esibhedlele kunye nokufa okubangelwa zizifo zentsholongwane ye-Influenza."
+    },
+    {
+      "vacina": "I-Yellow Fever (Umkhuhlane Otyheli)",
+      "idade": "Kwiinyanga ezi-9 (idosi yoku-1) kunye neminyaka emi-4 (isikhuthazi)",
+      "para_que_serve": "Ikhusela kumkhuhlane otyheli (yellow fever)."
+    },
+    {
+      "vacina": "I-MMR (SCR - Imasisi, Uqilikwana neRubella)",
+      "idade": "Kwiinyanga ezili-12 (idosi yoku-1)",
+      "para_que_serve": "Ikhusela kumasisi, uqilikwana (mumps) kunye ne-rubella."
+    },
+    {
+      "vacina": "I-MMRV (SCRV)",
+      "idade": "Kwiinyanga ezili-15 (idosi enye, emva kwedosi yoku-1 ye-MMR)",
+      "para_que_serve": "Ikhusela kumasisi, uqilikwana, i-rubella kunye nerhashalala (chickenpox)."
+    },
+    {
+      "vacina": "I-DTP (Isitofu Seentsholongwane Ezintathu)",
+      "idade": "Kwiinyanga ezili-15 (isikhuthazi soku-1) kunye neminyaka emi-4 (isikhuthazi sesi-2)",
+      "para_que_serve": "Iqinisa ukhuseleko ngokuchasene ne-diphtheria, i-tetanus kunye nokhohlokhohlo (pertussis)."
+    },
+    {
+      "vacina": "I-Hepatitis A",
+      "idade": "Kwiinyanga ezili-15 (idosi enye)",
+      "para_que_serve": "Ikhusela kwisifo sesibindi i-hepatitis A."
+    },
+    {
+      "vacina": "I-Varicella (Irhashalala)",
+      "idade": "Kwiminyaka emi-4 (idosi yesikhuthazi)",
+      "para_que_serve": "Iqinisa ukhuseleko ngokuchasene nerhashalala (chickenpox)."
+    },
+    {
+      "vacina": "I-HPV quadrivalent",
+      "idade": "Kwiminyaka eli-9 ukuya kweli-14 (idosi enye)",
+      "para_que_serve": "Ikhusela kusuleleko olungapheliyo kunye nezilonda ezinokukhokelela kumhlaza ezibangelwa ziintlobo 6, 11, 16 kunye ne-18 ze-Human Papillomavirus (HPV)."
+    },
+    {
+      "vacina": "I-Meningococcal ACWY (edityanisiweyo)",
+      "idade": "Kwiminyaka eli-11 ukuya kweli-14 (idosi enye okanye isikhuthazi)",
+      "para_que_serve": "Ikhusela kwi-meningitis kunye nosuleleko olusasazekileyo olubangelwa ngamaqela A, C, W kunye no-Y entsholongwane i-Neisseria meningitidis."
+    }
+  ]
+}
