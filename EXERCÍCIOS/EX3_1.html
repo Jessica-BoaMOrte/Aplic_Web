@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>3.1 Gerador de Saudação</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f9; display: flex; flex-direction: column; align-items: center; margin-top: 80px; }
+    input { padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 6px; }
+    button { padding: 10px 20px; font-size: 16px; color: #fff; background: #28a745; border: none; border-radius: 6px; cursor: pointer; }
+    button:hover { background: #218838; }
+    #mensagem { font-size: 20px; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h2>Gerador de Saudação</h2>
+  <div>
+    <input type="text" id="campoNome" placeholder="Digite seu nome">
+    <button onclick="saudar()">Saudar</button>
+  </div>
+  <p id="mensagem"></p>
+
+  <script>
+    // Recebe o nome e retorna a frase pronta
+    function construirSaudacao(nome) {
+      return "Olá, " + nome + "! Seja bem-vindo ao curso de Web!";
+    }
+
+    // Função principal chamada pelo onclick
+    function saudar() {
+      const nome = document.getElementById('campoNome').value;
+      const frase = construirSaudacao(nome);
+      document.getElementById('mensagem').innerText = frase;
+    }
+  </script>
+</body>
+</html>
