@@ -1,0 +1,178 @@
+{
+  "data_exportacao": "2026-11-13T00:04:49.870Z",
+  "paciente": {
+    "nome_completo": "Caroline Nascimento",
+    "data_nascimento": "2011-06-23",
+    "idade_anos": "15 anos",
+    "idade_meses": "4 meses",
+    "south_african_id": "1105145001083",
+    "cartao_saude_sus": "237061162620007",
+    "responsavel_1": "Maria Nascimento",
+    "responsavel_2": null,
+    "whatsapp_responsavel": "11981903147"
+  },
+  "vacinas": [
+    {
+      "vacina": "BCG",
+      "dose": "Dose 1",
+      "idade_recomendada": "Ekuzalweni (idosi enye)",
+      "status": "Aplicada",
+      "aplicacao": {
+        "data_aplicacao": "2011-06-23",
+        "numero_lote": "CN2011",
+        "unidade_aplicadora": "UBS",
+        "responsavel_aplicacao": "Ismar Frango"
+      }
+    },
+    {
+      "vacina": "I-Hepatitis B",
+      "dose": "Dose 1",
+      "idade_recomendada": "Ekuzalweni (idosi yokuzalwa)",
+      "status": "Aplicada",
+      "aplicacao": {
+        "data_aplicacao": "0011-06-23",
+        "numero_lote": "CN2011",
+        "unidade_aplicadora": "UBS",
+        "responsavel_aplicacao": "Ismar Frango"
+      }
+    },
+    {
+      "vacina": "I-Penta (DTP + Hib + Hepatitis B)",
+      "dose": "Dose 1",
+      "idade_recomendada": "Kwiinyanga ezi-2 (idosi yoku-1)",
+      "status": "Atrasada"
+    },
+    {
+      "vacina": "I-Penta (DTP + Hib + Hepatitis B)",
+      "dose": "Dose 2",
+      "idade_recomendada": "iinyanga ezi-4 (idosi yesi-2) kunye neenyanga ezi-6 (idosi yesi-3)",
+      "status": "Atrasada"
+    },
+    {
+      "vacina": "I-VIP (Isitofu Sokugonya I-Polio)",
+      "dose": "Dose 1",
+      "idade_recomendada": "Kwiinyanga ezi-2 (idosi yoku-1)",
+      "status": "Atrasada"
+    },
+    {
+      "vacina": "I-VIP (Isitofu Sokugonya I-Polio)",
+      "dose": "Dose 2",
+      "idade_recomendada": "iinyanga ezi-4 (idosi yesi-2)",
+      "status": "Atrasada"
+    },
+    {
+      "vacina": "I-VIP (Isitofu Sokugonya I-Polio)",
+      "dose": "Dose 3",
+      "idade_recomendada": "iinyanga ezi-6 (idosi yesi-3) kunye neenyanga ezili-15 (isikhuthazi)",
+      "status": "Atrasada"
+    },
+    {
+      "vacina": "I-Pneumococcal 10-valent (VPC10)",
+      "dose": "Dose 1",
+      "idade_recomendada": "Kwiinyanga ezi-2 (idosi yoku-1)",
+      "status": "Atrasada"
+    },
+    {
+      "vacina": "I-Pneumococcal 10-valent (VPC10)",
+      "dose": "Dose 2",
+      "idade_recomendada": "iinyanga ezi-4 (idosi yesi-2) kunye neenyanga ezili-12 (isikhuthazi)",
+      "status": "Atrasada"
+    },
+    {
+      "vacina": "I-Rotavirus Yomntu (VRH)",
+      "dose": "Dose 1",
+      "idade_recomendada": "Kwiinyanga ezi-2 (idosi yoku-1) kunye neenyanga ezi-4 (idosi yesi-2)",
+      "status": "Atrasada"
+    },
+    {
+      "vacina": "I-Meningococcal C (edityanisiweyo)",
+      "dose": "Dose 1",
+      "idade_recomendada": "Kwiinyanga ezi-3 (idosi yoku-1)",
+      "status": "Atrasada"
+    },
+    {
+      "vacina": "I-Meningococcal C (edityanisiweyo)",
+      "dose": "Dose 2",
+      "idade_recomendada": "iinyanga ezi-5 (idosi yesi-2) kunye neenyanga ezili-12 (isikhuthazi)",
+      "status": "Atrasada"
+    },
+    {
+      "vacina": "I-Covid-19",
+      "dose": "Dose 1",
+      "idade_recomendada": "Kwiinyanga ezi-6 (idosi yoku-1)",
+      "status": "Atrasada"
+    },
+    {
+      "vacina": "I-Covid-19",
+      "dose": "Dose 2",
+      "idade_recomendada": "iinyanga ezi-7 (idosi yesi-2) kunye neenyanga ezi-9 (idosi yesi-3",
+      "status": "Atrasada"
+    },
+    {
+      "vacina": "I-Covid-19",
+      "dose": "Dose 3",
+      "idade_recomendada": "ngokomenzi)",
+      "status": "Atrasada"
+    },
+    {
+      "vacina": "I-Influenza (Umkhuhlane)",
+      "dose": "Dose 1",
+      "idade_recomendada": "Ukususela kwiinyanga ezi-6 (ngonyaka; iidosi ezimbini kugonyo lokuqala ukuya kwiminyaka esi-8)",
+      "status": "Atrasada"
+    },
+    {
+      "vacina": "I-Yellow Fever (Umkhuhlane Otyheli)",
+      "dose": "Dose 1",
+      "idade_recomendada": "Kwiinyanga ezi-9 (idosi yoku-1) kunye neminyaka emi-4 (isikhuthazi)",
+      "status": "Atrasada"
+    },
+    {
+      "vacina": "I-MMR (SCR - Imasisi, Uqilikwana neRubella)",
+      "dose": "Dose 1",
+      "idade_recomendada": "Kwiinyanga ezili-12 (idosi yoku-1)",
+      "status": "Atrasada"
+    },
+    {
+      "vacina": "I-MMRV (SCRV)",
+      "dose": "Dose 1",
+      "idade_recomendada": "Kwiinyanga ezili-15 (idosi enye",
+      "status": "Atrasada"
+    },
+    {
+      "vacina": "I-MMRV (SCRV)",
+      "dose": "Dose 2",
+      "idade_recomendada": "emva kwedosi yoku-1 ye-MMR)",
+      "status": "Atrasada"
+    },
+    {
+      "vacina": "I-DTP (Isitofu Seentsholongwane Ezintathu)",
+      "dose": "Dose 1",
+      "idade_recomendada": "Kwiinyanga ezili-15 (isikhuthazi soku-1) kunye neminyaka emi-4 (isikhuthazi sesi-2)",
+      "status": "Atrasada"
+    },
+    {
+      "vacina": "I-Hepatitis A",
+      "dose": "Dose 1",
+      "idade_recomendada": "Kwiinyanga ezili-15 (idosi enye)",
+      "status": "Atrasada"
+    },
+    {
+      "vacina": "I-Varicella (Irhashalala)",
+      "dose": "Dose 1",
+      "idade_recomendada": "Kwiminyaka emi-4 (idosi yesikhuthazi)",
+      "status": "Atrasada"
+    },
+    {
+      "vacina": "I-HPV quadrivalent",
+      "dose": "Dose 1",
+      "idade_recomendada": "Kwiminyaka eli-9 ukuya kweli-14 (idosi enye)",
+      "status": "Atrasada"
+    },
+    {
+      "vacina": "I-Meningococcal ACWY (edityanisiweyo)",
+      "dose": "Dose 1",
+      "idade_recomendada": "Kwiminyaka eli-11 ukuya kweli-14 (idosi enye okanye isikhuthazi)",
+      "status": "Atrasada"
+    }
+  ]
+}
